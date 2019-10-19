@@ -153,7 +153,7 @@ class ToolBoxListContainer extends React.Component {
           id: 16,
           label: "Drupal",
           description: `An open source content-management framework written in PHP.`,
-          comment: `I built exactly one <a href="http://babelvillage.com/" target="_blank">site</a> with Drupal 7.`
+          comment: ` target="_blank">site</a> with Drupal 7.`
         },
         {
           id: 17,

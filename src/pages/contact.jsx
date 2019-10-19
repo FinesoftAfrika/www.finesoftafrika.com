@@ -7,34 +7,34 @@ import Helmet from "react-helmet";
 export default props => {
   return (
     <div className="c-content-box">
-      <Helmet title="Contact me" />
+      <Helmet title="Contact us" />
 
       <HeadlineWithFocus>
-        You can get in touch <span>anytime through</span>
+        You can get in touch with us <span>anytime through</span>
       </HeadlineWithFocus>
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
           <FaEnvelopeO />
-          <Obfuscate email="greglobinski@gmail.com" />
+          <Obfuscate email="info@finesoftafrika.com" />
         </li>
         <li className="c-contact-list__item">
           <FaTwitter />
           <a
-            href="https://twitter.com/greglobinski"
+            href="https://twitter.com/finesoftafrika"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @greglobinski
+            @finesoftafrika
           </a>
         </li>
         <li className="c-contact-list__item">
           <FaGithub />
           <a
-            href="https://github.com/greglobinski"
+            href="https://github.com/finesoftafrika"
             target="_blank"
             rel="noopener noreferrer"
           >
-            greglobinski
+            Finesoft Afrika
           </a>
         </li>
       </ul>
